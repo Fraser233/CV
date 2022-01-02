@@ -77,34 +77,39 @@ a:hover {
   text-decoration: none;
 }
 
-@media (min-width: 1800px) {
+@media (max-width: 1500px) {
+  h1, h2, h3, p, blockquote, pre, li, th, tr {
+    color: #393E46;
+    font-family: 'Montserrat', Verdana, Geneva, sans-serif;
+  }
+
   h1 {
-    font-size: 36px;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 6rem;
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 4rem;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 6rem;
   }
 
   h3 {
-      font-size: 22px;
+      font-size: 3rem;
       font-weight: 500;
-      line-height: 24px;
+      line-height: 4rem;
   }
 
   p {
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 3rem;
   }
   li {
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 3rem;
   }
 }
 
@@ -112,12 +117,6 @@ a:hover {
 
 .container-fluid {
   padding: 0 18%;
-}
-
-@media (min-width: 1000px) {
-  .container-fluid {
-    padding: 0 15%;
-  }
 }
 
 .navbar {
@@ -130,13 +129,32 @@ a:hover {
   font-weight: 700;
 }
 
+.nav-item {
+  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: 700;
+}
+
 .collapse {
   width: 80px;
 }
 
 .navbaricon {
-  width: 15%;
+  width: 20%;
   float: left;
+}
+
+@media (max-width: 1500px) {
+  .container-fluid {
+    padding: 0 15%;
+  }
+  .navbar {
+      height: 180px;
+  }
+  .navbaricon {
+    width: 45%;
+    float: left;
+  }
 }
 
 .top-container {
@@ -179,23 +197,23 @@ a:hover {
   padding-right: 10px;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1500px) {
   .top-text1 {
     color: white;
-    font-size: 1rem;
+    font-size: 2rem;
     font-family: Arial Black, Geneva, sans-serif;
     /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
     margin: 0;
-    padding: 0;
+    padding: 0 0 0.5rem 0;
   }
 
   .top-text2 {
     color: white;
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-family: Arial Black, Geneva, sans-serif;
     /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
     margin: 0;
-    padding: 0 0 20px 0;
+    padding: 0 0 2rem 0;
   }
 }
 
@@ -205,9 +223,9 @@ a:hover {
   margin: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1500px) {
   .profile {
-    width: 120px;
+    width: 200px;
     border-radius: 50%;
     margin: 5%;
   }
@@ -290,7 +308,7 @@ a:hover {
   opacity: 0.7;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1500px) {
   .centered-box {
     position: absolute;
     top: 50%;
@@ -307,10 +325,10 @@ a:hover {
 }
 
 .accordion {
-  margin: 3% 10%;
+  margin: 3% 5%;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1500px) {
   .accordion {
     margin: 3% 30%;
   }
@@ -324,19 +342,19 @@ a:hover {
 
 .role-tag {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 400;
   color: white;
 }
 
 .role-tag3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 2rem;
+  font-size: 5rem;
   font-weight: 400;
   color: #000;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1500px) {
   .role-tag {
     font-family: 'Oswald', sans-serif;
     font-size: 3rem;
