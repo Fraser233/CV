@@ -1,0 +1,403 @@
+/**********************Tag Selection**********************/
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color:  #FDF2EF;
+}
+
+hr {
+  background-color: #FDF2EF;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D65A31;
+  border-width: 9px;
+  width: 70px;
+  margin: 70px auto 70px auto;
+}
+
+h1, h2, h3, p, blockquote, pre, li, th, tr {
+  color: #393E46;
+  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+p {
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+blockquote {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+
+li {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+a {
+  color: #D65A31;
+  font-family: 'Montserrat', Verdana, Geneva, sans-serif;
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+@media (min-width: 1800px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+
+  h3 {
+      font-size: 22px;
+      font-weight: 500;
+      line-height: 24px;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}
+
+/**********************Class Selection**********************/
+
+.container-fluid {
+  padding: 0 18%;
+}
+
+@media (min-width: 1000px) {
+  .container-fluid {
+    padding: 0 15%;
+  }
+}
+
+.navbar {
+    height: 70px;
+}
+
+.nav-item {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 100%;
+  font-weight: 700;
+}
+
+.collapse {
+  width: 80px;
+}
+
+.navbaricon {
+  width: 15%;
+  float: left;
+}
+
+.top-container {
+  position: relative;
+  text-align: center;
+}
+
+.top-img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  border-radius: 0 0 50% 50%;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top-text1 {
+  color: white;
+  font-size: 1rem;
+  font-family: Arial Black, Geneva, sans-serif;
+  /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.top-text2 {
+  color: white;
+  font-size: 4rem;
+  font-family: Arial Black, Geneva, sans-serif;
+  /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 1080px) {
+  .top-text1 {
+    color: white;
+    font-size: 1rem;
+    font-family: Arial Black, Geneva, sans-serif;
+    /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-text2 {
+    color: white;
+    font-size: 3.5rem;
+    font-family: Arial Black, Geneva, sans-serif;
+    /*text-shadow: -1px 0 Black, 0 1px Black, 1px 0 Black, 0 -1px Black;*/
+    margin: 0;
+    padding: 0 0 20px 0;
+  }
+}
+
+.profile {
+  width: 170px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+@media (max-width: 600px) {
+  .profile {
+    width: 120px;
+    border-radius: 50%;
+    margin: 5%;
+  }
+}
+
+.profile-text {
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+
+.middle-container {
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: #d15232;
+  padding: 20px 0 10px 0;
+  margin: 0 auto 0 auto;
+}
+
+.row {
+  margin: 0 10% 0 10%;
+}
+
+.project-img{
+  width: 50%;
+  margin: 50px auto 20px auto;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-color: #767373;
+  opacity: 0.7;
+  padding: 50% 0;
+  border-radius: 10px 0 0 10px;
+}
+
+.carousel-control-next-icon {
+  background-color: #767373;
+  opacity: 0.7;
+  padding: 50% 0;
+  border-radius: 0 10px 10px 0;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+.interest-img {
+  width: 100%;
+}
+
+.interesttext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 0 10%;
+  color: #393E46;
+}
+
+.interestname {
+  font-family: 'Lora', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 120%;
+  padding: 1% 10%;
+  color: #393E46;
+}
+
+.centered-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+@media (min-width: 1400px) {
+  .centered-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 30%;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+  }
+  .interest-h3 {
+    font-size: 1.5rem;
+  }
+}
+
+.accordion {
+  margin: 3% 10%;
+}
+
+@media (min-width: 1080px) {
+  .accordion {
+    margin: 3% 30%;
+  }
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.role-tag {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: white;
+}
+
+.role-tag3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000;
+}
+
+@media (min-width: 1080px) {
+  .role-tag {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: white;
+  }
+
+  .role-tag3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.role-img-btn {
+  padding: 0 30px 0 0;
+}
+
+.collapse {
+  width: 100%;
+}
+
+.role-img {
+  width: 100%;
+  padding: 1px 10px 0 0;
+  border-radius: 5px;
+}
+
+.skill-icon {
+  width: 2rem;
+}
+
+#flush-collapseTwo .skill-icon {
+  width: 3rem;
+}
+
+#flush-collapseTwo .skill-icons {
+  width: 5rem;
+}
+
+#flush-collapseThree .skill-icon {
+  width: 3rem;
+}
+
+.contact-content {
+  width: 40%;
+  margin: 40px auto 20px auto;
+}
+
+.footer-link {
+  color: #e8a390;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.footer-icon {
+  width: 1.2rem;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  margin: 30px 0;
+}
