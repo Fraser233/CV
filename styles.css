@@ -6,7 +6,7 @@ body {
   background-color:  #FDF2EF;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1400px) {
   body {
    width: 1080px;
    text-align: center;
