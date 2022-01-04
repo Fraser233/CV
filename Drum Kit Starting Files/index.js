@@ -1,14 +1,19 @@
 for (var i=0; i<document.querySelectorAll(".drum").length; i++)
   document.querySelectorAll("button")[i].addEventListener("click", function () {
     var buttonclick = this.innerHTML;
-    buttonX(buttonclick);
+    buttonPlay(buttonclick);
+    animation(buttonclick);
   });
 
 document.addEventListener("keypress", function(event) {
-  buttonX(event.key);
+  buttonPlay(event.key);
+  animation(event.key);
 });
 
-function buttonX(key) {
+
+
+
+function buttonPlay(key) {
     switch (key) {
       case "w":
           var tom1 = new Audio("sounds/tom-1.mp3");
@@ -42,4 +47,12 @@ function buttonX(key) {
       default: console.log(key);
 
     }
+}
+
+function animation(currKey) {
+  var activeButton = document.querySelector("." + currKey);
+  activeButton.classList.add("pressed");
+  setTimeout(function() {
+    activeButton.classList.remove("pressed");
+  }, 100);
 }
